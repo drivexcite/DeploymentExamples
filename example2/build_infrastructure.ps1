@@ -1,7 +1,7 @@
-$resourceGroup = 'ResourceGroup1'
-$storageAccount = 'hwexample1storage'
-$webAppPlan = 'LinuxAppPlan1'
-$functionApp = 'hwfunctionapp1'
+$resourceGroup = 'DevOpsResourceGroup'
+$storageAccount = 'devopsfunctionstorage'
+$webAppPlan = 'DevOpsWebAppPlan'
+$functionApp = 'HwDevOpsFunctionApp'
 
 az group create --name $resourceGroup --location westus
 az storage account create --resource-group $resourceGroup --name $storageAccount --assign-identity --location westus --sku Standard_LRS
