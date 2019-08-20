@@ -1,5 +1,5 @@
 $resourceGroup = 'DevOpsResourceGroup'
-$storageAccount = 'devopsfunctionstorage'
+$storageAccount = 'hwdevopsfuncstorage'
 $webAppPlan = 'DevOpsWebAppPlan'
 $functionApp = 'HwDevOpsFunctionApp'
 
