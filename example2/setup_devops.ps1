@@ -1,4 +1,4 @@
-$organization = 'https://dev.azure.com/hwdevopsorg'
+$organization = 'https://dev.azure.com/HwDevOpsOrg1'
 $pat = ''
 $project = 'DeploymentExample'
 $repository = 'nanofunction'
